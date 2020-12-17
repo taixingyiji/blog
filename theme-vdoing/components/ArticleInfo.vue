@@ -111,9 +111,13 @@ export default {
   methods: {
     getPageInfo () {
       const pageInfo = this.$page
+      console.log(pageInfo)
       const { relativePath } = pageInfo
       const { sidebar } = this.$themeConfig
-
+      const {frontmatter:{ keywords }} = pageInfo
+      if (keywords) {
+        document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
+      }
       // 分类采用解析文件夹地址名称的方式
       const relativePathArr = relativePath.split('/')
 
