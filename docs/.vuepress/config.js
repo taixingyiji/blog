@@ -1,7 +1,7 @@
 const nav = require('./config/nav.js');
 
 module.exports = {
-  title: "HC's Blog",
+  title: "Lake's Blog",
   description:
     'web前端技术博客,简洁至上,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。', // 描述,以 <meta> 标签渲染到页面html中
   // base: '/', // '/<github仓库名>/'， 默认'/'
@@ -96,7 +96,7 @@ module.exports = {
     blogger: {
       // 博主信息，显示在首页侧边栏
       avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'HC Liu',
+      name: 'Lake Liu',
       slogan: '很菜的程序员',
     },
     social: {
@@ -124,7 +124,7 @@ module.exports = {
       // 页脚信息
       createYear: 2020, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        'Lake Liu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     },
   },
   plugins: [
@@ -220,11 +220,11 @@ module.exports = {
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
+          clientID: '582e4f9e1519293c9a35',
+          clientSecret: 'b510afc414e9aef4ad36b36e4fb07c027ac304fd',
           repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          owner: 'taixingyiji', // GitHub仓库所有者
+          admin: ['taixingyiji'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50

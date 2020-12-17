@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: HC's Blog
+heroText: Lake's Blog
 tagline: 不积跬步，无以至千里；不积小流，无以成江海。
 # actionText: 立刻进入 →
 # actionLink: /web/
