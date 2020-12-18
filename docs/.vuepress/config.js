@@ -1,7 +1,6 @@
 const nav = require('./config/nav.js');
 
 module.exports = {
-    base: '/blog/',
     title: `Lake's Blog`,
     description:
         '个人技术博客,简洁至上,专注学习与总结。JavaScript,js,ES6,TypeScript,vue,Java,OpenStack,Docker,k8s,Spring,SpringBoot,Mybatis,css3,html5,Node,git,github等技术文章。', // 描述,以 <meta> 标签渲染到页面html中

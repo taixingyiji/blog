@@ -12,6 +12,7 @@ module.exports = [
     text: '后台',
     link: '/server/',
     items: [
+      { text: 'Elasticsearch', link: '/es/build/' },
     ],
   },
   {
