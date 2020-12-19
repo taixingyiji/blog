@@ -1,4 +1,5 @@
 const nav = require('./config/nav.js');
+const secret = require('./secret.js');
 
 module.exports = {
     title: `Lake's Blog`,
@@ -222,8 +223,7 @@ module.exports = {
             {
                 choosen: 'gitalk',
                 options: {
-                    clientID: '582e4f9e1519293c9a35',
-                    clientSecret: 'b510afc414e9aef4ad36b36e4fb07c027ac304fd',
+                    ...secret,
                     repo: 'blog-gitalk-comment', // GitHub 仓库
                     owner: 'taixingyiji', // GitHub仓库所有者
                     admin: ['taixingyiji'], // 对仓库有写权限的人

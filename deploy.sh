@@ -11,6 +11,8 @@ cd docs/.vuepress/dist
 
 # deploy to github
 echo 'taixingyiji.com' > CNAME
+
+echo "module.exports={clientID: ${clientID},clientSecret: ${clientSecret}}" > docs/.vuepress/secret.js
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:taixingyiji/blog.git
