@@ -3,6 +3,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+echo "module.exports={clientID: ${clientID},clientSecret: ${clientSecret}}" > docs/.vuepress/secret.js
 # 生成静态文件
 npm run build
 
@@ -12,7 +13,7 @@ cd docs/.vuepress/dist
 # deploy to github
 echo 'taixingyiji.com' > CNAME
 
-echo "module.exports={clientID: ${clientID},clientSecret: ${clientSecret}}" > docs/.vuepress/secret.js
+
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:taixingyiji/blog.git
