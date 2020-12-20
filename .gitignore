@@ -15,4 +15,3 @@ docs/.vuepress/dist
 urls.txt
 .idea
 docs/.vuepress/config/secret.js
-/google.xml
