@@ -111,9 +111,9 @@ export default {
   methods: {
     getPageInfo () {
       const pageInfo = this.$page
-      console.log(pageInfo)
       const { relativePath } = pageInfo
       const { sidebar } = this.$themeConfig
+
       // 分类采用解析文件夹地址名称的方式
       const relativePathArr = relativePath.split('/')
 

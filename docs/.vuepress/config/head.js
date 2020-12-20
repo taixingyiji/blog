@@ -14,14 +14,15 @@ module.exports = [
     ],
     ['meta', {name: 'baidu-site-verification', content: 'code-4SNKZQDgrZ'}], // 百度统计的站长验证
     ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
-    // [
-    //     'script',
-    //     {
-    //         'data-ad-client': 'ca-pub-7828333725993554',
-    //         async: 'async',
-    //         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-    //     },
-    // ], // 网站关联Google AdSense
+    [
+        'script',
+        {
+            'data-ad-client': 'ca-pub-5593357339450461',
+            async: 'async',
+            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        },
+    ], // 网站关联Google AdSense
+    // <script data-ad-client="ca-pub-5593357339450461" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     // <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
     // [
     //     'script',

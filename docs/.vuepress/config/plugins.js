@@ -110,7 +110,7 @@ module.exports = [
         '@vuepress/last-updated', // "上次更新"时间格式
         {
             transformer: (timestamp, lang) => {
-                const moment = require('moment') // https://momentjs.com/
+                const moment = require('dayjs') // https://momentjs.com/
                 return moment(timestamp).format('YYYY/MM/DD, hh:mm:ss')
             },
         },

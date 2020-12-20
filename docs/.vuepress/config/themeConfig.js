@@ -1,4 +1,5 @@
 const nav = require('./themeConfig/nav.js');
+const htmlModules = require('./themeConfig/htmlModules.js');
 module.exports = {
     // 主题配置
     nav,
@@ -80,4 +81,5 @@ module.exports = {
         copyrightInfo:
             'Lake Liu | <a href="https://github.com/taixingyiji/blog/blob/main/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     },
+    htmlModules
 }
