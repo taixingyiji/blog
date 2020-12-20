@@ -22,15 +22,13 @@ module.exports = [
             src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
         },
     ], // 网站关联Google AdSense
-    // <script data-ad-client="ca-pub-5593357339450461" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    // <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-    // [
-    //     'script',
-    //     {
-    //         'custom-element': 'amp-ad',
-    //         async: 'async',
-    //         src: 'https://cdn.ampproject.org/v0/amp-ad-0.1.js',
-    //     },
-    // ], // AMP广告
+    [
+        'script',
+        {
+            'custom-element': 'amp-ad',
+            async: 'async',
+            src: 'https://cdn.ampproject.org/v0/amp-ad-0.1.js',
+        },
+    ], // AMP广告
     // ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'}], // 移动端阻止页面缩放
 ]
