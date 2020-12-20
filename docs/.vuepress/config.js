@@ -20,6 +20,18 @@ module.exports = {
                     '个人技术博客,前端,前端开发,前端框架,web前端,技术文档,学习,Java,OpenStack,Docker,k8s,运维,Spring,SpringBoot,Mybatis,Linux,Ubuntu,CentOS,Debian,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
             },
         ],
+        [
+            "script",
+            {},
+            `
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?7d3d76744a683f1157fd8b41bf73780d";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();    `
+        ],
         ['meta', {name: 'baidu-site-verification', content: 'code-4SNKZQDgrZ'}], // 百度统计的站长验证
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
         // [
