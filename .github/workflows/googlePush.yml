@@ -5,7 +5,6 @@ name: googlePush
 
 # 两种触发方式：一、push代码，二、每天国际标准时间23点（北京时间+8即早上7点）运行
 on:
-  push:
   schedule:
     - cron: '0 23 * * *' # https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#scheduled-events-schedule
 
@@ -20,6 +19,4 @@ jobs:
       - name: 'Checkout codes' # 步骤一，获取仓库代码
         uses: actions/checkout@v1
       - name: 'Run googlePush' # 步骤二，执行sh命令文件
-        env: # 设置环境变量
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-        run: npm install && npm run googlePush # 运行目录是仓库根目录
+        run: npm run googlePush # 运行目录是仓库根目录
