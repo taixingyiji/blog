@@ -7,7 +7,7 @@
     "deploy": "bash deploy.sh",
     "editFm": "node utils/editFrontmatter.js",
     "baiduPush": "node utils/baiduPush.js https://taixingyiji.com && bash baiduPush.sh",
-    "googlePush": "node utils/googlePush.js https://taixingyiji.com && bash googlePush.sh",
+    "googlePush": "bash googlePush.sh",
     "publish": "cd theme-vdoing && npm publish && cd ../ && npm run updateTheme",
     "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
   },
