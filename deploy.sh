@@ -3,7 +3,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-echo "module.exports={clientID: '${clientID}',clientSecret: '${clientSecret}'}" > docs/.vuepress/secret.js
+echo "module.exports={clientID: '${clientID}',clientSecret: '${clientSecret}'}" > docs/.vuepress/config/secret.js
 # 生成静态文件
 npm run build
 
