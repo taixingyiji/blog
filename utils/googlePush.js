@@ -45,5 +45,9 @@ function main() {
 function dateFormatter (date) {
     const month = (date.getMonth() + 1).toString().padStart(2, '0');
     const strDate = date.getDate().toString().padStart(2, '0');
-    return `${date.getFullYear()}-${month}-${strDate}T${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}+08:00`;
+    let hours = date.getHours()
+    if (hours < 10) {
+        hours = '0'+''+hours
+    }
+    return `${date.getFullYear()}-${month}-${strDate}T${hours}:${date.getMinutes()}:${date.getSeconds()}+00:00`;
 }
