@@ -14,10 +14,21 @@ module.exports = [
     ],
   },
   {
-    text: '后台',
+    text: '后端',
     link: '/server/',
     items: [
-      { text: 'Elasticsearch', link: '/es/build/' },
+      {
+        text: '开发',
+        items: [
+          { text: 'Spring', link: '/spring/period/' },
+        ],
+      },
+      {
+        text: '数据库及中间件',
+        items: [
+          { text: 'Elasticsearch', link: '/es/build/' },
+        ],
+      },
     ],
   },
   {
