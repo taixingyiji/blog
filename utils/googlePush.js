@@ -32,7 +32,7 @@ function main() {
         if (data.permalink) {
             const url = '\n  <url>' +
                 '\r\n    <loc>'+`${DOMAIN}${data.permalink}`+'</loc>' +
-                '\r\n    <changefreq>daily</<changefreq>' +
+                '\r\n    <changefreq>daily</changefreq>' +
                 '\n  </url>'
             // const link = `\r\n${DOMAIN}${data.permalink}`;
             console.log(url)
