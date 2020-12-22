@@ -25,6 +25,23 @@ module.exports = [
     [
         'script',
         {
+            async: 'async',
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-KE7ENV3SVE',
+        },
+    ], // Google 分析
+    [
+        "script",
+        {},
+        `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KE7ENV3SVE');
+    `
+    ],
+    [
+        'script',
+        {
             'custom-element': 'amp-ad',
             async: 'async',
             src: 'https://cdn.ampproject.org/v0/amp-ad-0.1.js',
