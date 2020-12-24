@@ -7,7 +7,7 @@ module.exports = [
       {
         text: '博客搭建',
         items: [
-          { text: '搜索引擎收录', link: '/search/baidu/' },
+          { text: '搜索引擎', link: '/search/baidu/' },
           { text: 'SEO优化', link: '/vuepress/keywords/' },
         ],
       },
