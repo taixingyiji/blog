@@ -11,6 +11,12 @@ module.exports = [
           { text: 'SEO优化', link: '/vuepress/keywords/' },
         ],
       },
+      {
+        text: 'Vue',
+        items: [
+          { text: '问题记录', link: '/vue/bracket/' },
+        ],
+      },
     ],
   },
   {
