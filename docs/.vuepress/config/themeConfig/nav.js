@@ -44,13 +44,12 @@ module.exports = [
       {
         text: '算法说明',
         items: [
-          { text: 'algorithm', link: '/algorithm/period/' },
+          { text: 'algorithm', link: '/algorithm/hash/' },
         ],
       },
       {
         text: 'leetcode',
         items: [
-          { text: 'leetcode', link: '/es/build/' },
         ],
       },
     ],
