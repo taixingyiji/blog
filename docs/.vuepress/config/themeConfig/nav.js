@@ -47,11 +47,6 @@ module.exports = [
           { text: 'algorithm', link: '/algorithm/hash/' },
         ],
       },
-      {
-        text: 'leetcode',
-        items: [
-        ],
-      },
     ],
   },
   {
