@@ -38,6 +38,24 @@ module.exports = [
     ],
   },
   {
+    text: '算法',
+    link: '/algorithm/',
+    items: [
+      {
+        text: '算法说明',
+        items: [
+          { text: 'algorithm', link: '/algorithm/period/' },
+        ],
+      },
+      {
+        text: 'leetcode',
+        items: [
+          { text: 'leetcode', link: '/es/build/' },
+        ],
+      },
+    ],
+  },
+  {
     text: '运维',
     link: '/devops/',
     items: [
