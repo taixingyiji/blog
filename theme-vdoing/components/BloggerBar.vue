@@ -25,6 +25,9 @@
       <span class="name">{{blogger.name}}</span>
       <span class="slogan">{{blogger.slogan}}</span>
     </div>
+    <div class="blogger">
+      <div class="slogan" v-html="designer.slogan"></div>
+    </div>
   </aside>
 </template>
 
@@ -33,6 +36,9 @@ export default {
   computed: {
     blogger () {
       return this.$themeConfig.blogger
+    },
+    designer () {
+      return this.$themeConfig.designer
     },
     social () {
       return this.$themeConfig.social

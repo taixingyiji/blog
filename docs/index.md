@@ -78,8 +78,8 @@ tagline: 不积跬步，无以至千里；不积小流，无以成江海。
 
 ## :email: 联系
 
-- **WeChat or QQ**: <a href="tencent://message/?uin=894072666&Site=&Menu=yesUrl" class='qq'>894072666</a>
-- **Email**: <a href="mailto:894072666@qq.com">894072666@qq.com</a>
-- **GitHub**: <https://github.com/xugaoyi>
+- **WeChat or QQ**: <a href="tencent://message/?uin=943785792&Site=&Menu=yesUrl" class='qq'>943785792</a>
+- **Email**: <a href="mailto:taixingyiji@126.com">taixingyiji@126.com</a>
+- **GitHub**: <https://github.com/taixingyiji>
 
 </br>  -->
