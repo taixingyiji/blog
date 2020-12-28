@@ -53,6 +53,12 @@ module.exports = [
           { text: 'algorithm', link: '/algorithm/hash/' },
         ],
       },
+      {
+        text: 'leetCode',
+        items: [
+          { text: 'leetCode', link: '/leetcode/two-sum/' },
+        ],
+      },
     ],
   },
   {
