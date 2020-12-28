@@ -56,7 +56,7 @@ module.exports = {
     },
     designer:{
         name: 'Drrizzee',
-        slogan:'Logo|背景图 BY <a href="https://weibo.com/u/5142533458">@Drrizzee </a>'
+        slogan:'Logo | 背景图 by <a href="https://weibo.com/u/5142533458">@Drrizzee </a>'
     },
     social: {
         // 社交图标，显示于博主信息栏和页脚栏
