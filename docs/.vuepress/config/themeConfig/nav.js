@@ -35,6 +35,12 @@ module.exports = [
           { text: 'Elasticsearch', link: '/es/build/' },
         ],
       },
+      {
+        text: '杂谈',
+        items: [
+          { text: 'any', link: '/any/lock/' },
+        ],
+      },
     ],
   },
   {
