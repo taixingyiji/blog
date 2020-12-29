@@ -63,14 +63,14 @@ export default {
           KEY: 'auto'
         },
         {
-          name: '浅色模式',
-          icon: 'icon-rijianmoshi',
-          KEY: 'light'
-        },
-        {
           name: '深色模式',
           icon: 'icon-yejianmoshi',
           KEY: 'dark'
+        },
+        {
+          name: '浅色模式',
+          icon: 'icon-rijianmoshi',
+          KEY: 'light'
         },
         {
           name: '阅读模式',
@@ -87,7 +87,7 @@ export default {
     }
   },
   mounted () {
-    this.currentMode = storage.get('mode') || 'auto'
+    this.currentMode = storage.get('mode') || 'dark'
 
     this.scrollTop = this.getScrollTop()
     window.addEventListener('scroll', debounce(() => {
