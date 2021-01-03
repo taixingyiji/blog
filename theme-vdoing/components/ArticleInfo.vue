@@ -121,7 +121,7 @@ export default {
   },
   methods: {
     getCountData(){
-      axios.get("http://qs.taixingyiji.com:8082/common/count/"+this.articleInfo.title+"/abjkzxclkmA").then(value => {
+      axios.get("https://qs.taixingyiji.com:8082/common/count/"+this.articleInfo.title+"/abjkzxclkmA").then(value => {
         this.num = value.data.data
       })
     },
