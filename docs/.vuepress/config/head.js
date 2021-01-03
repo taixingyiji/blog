@@ -4,6 +4,10 @@ module.exports = [
         rel: 'icon',
         href: 'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/favicon/favicon.ico'
     }], //favicons，资源放在public文件夹
+    ['link', {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/css/iconfont.css'
+    }], //favicons，资源放在public文件夹
     [
         'meta',
         {

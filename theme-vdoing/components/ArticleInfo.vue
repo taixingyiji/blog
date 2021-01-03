@@ -78,6 +78,13 @@
           <a href="javascript:;">{{articleInfo.date}}</a>
         </div>
         <div
+            class="icon iconfont icon-liulanliang"
+            title="浏览量"
+            v-if="num"
+        >
+          <a href="javascript:;">{{num}}</a>
+        </div>
+        <div
           class="date iconfont icon-wenjian"
           title="分类"
           v-if="$themeConfig.category !== false && !(articleInfo.classify1 && articleInfo.classify1 !== '_posts') && articleInfo.categories"
@@ -94,14 +101,18 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   data () {
     return {
-      articleInfo: {}
+      articleInfo: {},
+      num:null
     }
   },
-  created () {
-    this.articleInfo = this.getPageInfo()
+  async created () {
+    this.articleInfo = await this.getPageInfo()
+    this.getCountData()
   },
   watch: {
     '$route.path' () {
@@ -109,11 +120,16 @@ export default {
     }
   },
   methods: {
+    getCountData(){
+      axios.get("http://qs.taixingyiji.com:8082/common/count/"+this.articleInfo.title+"/abjkzxclkmA").then(value => {
+        this.num = value.data.data
+      })
+    },
     getPageInfo () {
       const pageInfo = this.$page
       const { relativePath } = pageInfo
       const { sidebar } = this.$themeConfig
-
+      const { title } = this.$frontmatter
       // 分类采用解析文件夹地址名称的方式
       const relativePathArr = relativePath.split('/')
 
@@ -137,7 +153,8 @@ export default {
         classify3,
         cataloguePermalink,
         author,
-        categories
+        categories,
+        title
       }
     }
   }

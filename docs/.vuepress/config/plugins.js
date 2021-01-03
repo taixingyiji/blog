@@ -1,11 +1,21 @@
 const secret = require('./secret.js');
 module.exports = [
     // 插件
-    // [require('./plugins/love-me'), { // 鼠标点击爱心特效
-    //   color: '#11a8cd', // 爱心颜色，默认随机色
-    //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-    // }],
-
+    [require('../plugins/love-me/index.js'), { // 鼠标点击爱心特效
+      color: '#11a8cd', // 爱心颜色，默认随机色
+      excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
+    }],
+    // [
+    //     'vuepress-plugin-sponsor',
+    //     {
+    //         theme: 'drinks',
+    //         alipay: '/sponsor-qrcode/qrcode-alipay.png',
+    //         wechat: '/sponsor-qrcode/qrcode-wechat.png',
+    //         qq: '/sponsor-qrcode/qrcode-qq.png',
+    //         paypal: 'https://www.paypal.me/yokefellow',
+    //         duration: 2000
+    //     }
+    // ],
     [
         'thirdparty-search',
         {

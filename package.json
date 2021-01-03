@@ -27,6 +27,8 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
-    "vuepress-plugin-comment": "^0.7.3"
+    "axios": "^0.21.1",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-sponsor": "^1.0.0"
   }
 }
