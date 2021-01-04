@@ -19,26 +19,30 @@
  */
 
 module.exports = {
-  // homeSidebarB:
-  //   `<!-- 纵向自适应 -->
-  //   <ins class="adsbygoogle"
-  //       style="display:block"
-  //       data-ad-client="ca-pub-7828333725993554"
-  //       data-ad-slot="7802654582"
-  //       data-ad-format="auto"
-  //       data-full-width-responsive="true"></ins>
-  //   <script>
-  //       (adsbygoogle = window.adsbygoogle || []).push({});
-  //   </script>`,
-  // sidebarT:
-  //   `<!-- 100% * 150px (可正常显示)-->
-  //   <ins class="adsbygoogle"
-  //         style="display:inline-block;width:100%;max-height:150px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
+  homeSidebarB:
+    `<!-- 纵向自适应 -->
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-5593357339450461"
+      data-ad-slot="9038906132"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>`,
+  sidebarT:
+    `<!-- 100% * 150px (可正常显示)-->
+<!-- 正方形 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5593357339450461"
+     data-ad-slot="6412742791"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+`,
   // sidebarB:
   //   `<!-- 100% * 150px (可正常显示)-->
   //    <ins class="adsbygoogle"
@@ -48,28 +52,31 @@ module.exports = {
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
-  // pageT: //
-  //   `<!-- 100% * max-120px (暂未看到效果)-->
-  //    <ins class="adsbygoogle"
-  //         style="display:inline-block;width:100%;max-height:120px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
-  // // pageTshowMode: 'article',
-  // pageB:
-  //   `<!-- 横向自适应 -->
-  //     <ins class="adsbygoogle"
-  //         style="display:block"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6620245489"
-  //         data-ad-format="auto"
-  //         data-full-width-responsive="true"></ins>
-  //     <script>
-  //         (adsbygoogle = window.adsbygoogle || []).push({});
-  //     </script>`,
-  // pageBshowMode: 'article',
+//   pageT:
+//     `<!-- 100% * max-120px (暂未看到效果)-->
+// <!-- hengxiang -->
+// <ins class="adsbygoogle"
+//      style="display:block"
+//      data-ad-client="ca-pub-5593357339450461"
+//      data-ad-slot="7060126977"
+//      data-ad-format="auto"
+//      data-full-width-responsive="true"></ins>
+// <script>
+//      (adsbygoogle = window.adsbygoogle || []).push({});
+// </script>`,
+  // pageTshowMode: 'article',
+  pageB:
+    `<!-- 横向自适应 -->
+      <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5593357339450461"
+     data-ad-slot="7060126977"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>`,
+  pageBshowMode: 'article',
   // windowLB: // 遮挡部分侧边栏
   //   `<!-- 固定200*200px -->
   //     <ins class="adsbygoogle"
