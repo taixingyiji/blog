@@ -112,11 +112,13 @@ export default {
   },
   async created () {
     this.articleInfo = await this.getPageInfo()
-    this.getCountData()
   },
   watch: {
     '$route.path' () {
       this.articleInfo = this.getPageInfo()
+    },
+    'articleInfo.title' (){
+      this.getCountData()
     }
   },
   methods: {
