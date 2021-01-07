@@ -38,7 +38,7 @@ module.exports = [
       {
         text: '杂谈',
         items: [
-          { text: 'any', link: '/any/lock/' },
+          { text: '杂谈', link: '/any/lock/' },
         ],
       },
     ],
@@ -65,6 +65,12 @@ module.exports = [
     text: '运维',
     link: '/devops/',
     items: [
+      {
+        text: '代理',
+        items: [
+          { text: 'Nginx', link: '/nginx/http/' },
+        ],
+      },
     ],
   },
   {
