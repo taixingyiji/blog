@@ -68,7 +68,7 @@ module.exports = [
       {
         text: '代理',
         items: [
-          { text: 'Nginx', link: '/nginx/linuxbuild/1161' },
+          { text: 'Nginx', link: '/nginx/linuxbuild/onepointsixteen' },
         ],
       },
     ],
