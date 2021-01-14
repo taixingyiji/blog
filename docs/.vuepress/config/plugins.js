@@ -46,9 +46,13 @@ module.exports = [
             ],
         },
     ],
-
+    [
+        //插件广场的流程图插件 先安装在配置 npm install vuepress-plugin-flowchart --save
+        'flowchart'
+    ],
     'vuepress-plugin-baidu-autopush', // 百度自动推送
-
+    'mermaidjs',
+    'flowchart',
     [
         'one-click-copy',
         {

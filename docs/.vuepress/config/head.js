@@ -8,6 +8,9 @@ module.exports = [
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/css/iconfont.css'
     }], //favicons，资源放在public文件夹
+    // markdown数学公式支持
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
+    ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }],
     [
         'meta',
         {

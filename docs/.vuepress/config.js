@@ -8,6 +8,10 @@ module.exports = {
     // base: '/', // '/<github仓库名>/'， 默认'/'
     markdown: {
         lineNumbers: true, // 代码行号
+        extendMarkdown: md => {
+            // 使用更多的 markdown-it 插件!
+            md.use(require('markdown-it-katex'))
+        }
     },
     // theme: 'vdoing', // 使用依赖包主题
     theme: require.resolve('../../theme-vdoing'), // 使用本地主题
