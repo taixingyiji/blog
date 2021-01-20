@@ -24,7 +24,7 @@ module.exports = {
         // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
         'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/bg/wbg.jpg'
     ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
-    bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
+    bodyBgImgOpacity: 0.7, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
@@ -50,13 +50,13 @@ module.exports = {
     },
     blogger: {
         // 博主信息，显示在首页侧边栏
-        avatar: 'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/logo/img.png',
+        avatar: 'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/20210120171801.png',
         name: 'Lake Liu',
         slogan: '很菜的程序员',
     },
     designer:{
         name: 'Drrizzee',
-        slogan:'Logo | 背景图 by <a href="https://weibo.com/u/5142533458">@Drrizzee </a>'
+        slogan:'Logo|背景|头像 by <a href="https://weibo.com/u/5142533458">@Drrizzee</a>'
     },
     social: {
         // 社交图标，显示于博主信息栏和页脚栏
