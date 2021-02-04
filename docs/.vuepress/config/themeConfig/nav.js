@@ -34,6 +34,7 @@ module.exports = [
         text: '数据库及中间件',
         items: [
           { text: 'Elasticsearch', link: '/es/build/' },
+          { text: 'SQL', link: '/sql/sqlitebuild/' },
         ],
       },
       {
