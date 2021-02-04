@@ -9,6 +9,7 @@ module.exports = [
         items: [
           { text: '搜索引擎', link: '/search/baidu/' },
           { text: 'SEO优化', link: '/vuepress/keywords/' },
+          { text: '问题记录', link: '/vuepress/elementuierror/' },
         ],
       },
       {
