@@ -43,6 +43,12 @@ module.exports = [
           { text: '杂谈', link: '/any/lock/' },
         ],
       },
+      {
+        text: '微服务',
+        items: [
+          { text: 'nacos', link: '/cloud/winbuildnacos/' },
+        ],
+      },
     ],
   },
   {
