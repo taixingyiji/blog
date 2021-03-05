@@ -47,6 +47,7 @@ module.exports = [
         text: '微服务',
         items: [
           { text: 'nacos', link: '/cloud/winbuildnacos/' },
+          { text: 'CAS', link: '/cas/springbootcas/' },
         ],
       },
     ],
