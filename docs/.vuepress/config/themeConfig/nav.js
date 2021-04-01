@@ -80,6 +80,12 @@ module.exports = [
           { text: 'Nginx', link: '/nginx/linuxbuild/onepointsixteen/' },
         ],
       },
+      {
+        text: 'Linux',
+        items: [
+          { text: 'ubuntu', link: '/nginx/linuxbuild/onepointsixteen/' },
+        ],
+      },
     ],
   },
   {
