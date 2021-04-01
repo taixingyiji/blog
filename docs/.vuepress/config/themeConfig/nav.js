@@ -83,7 +83,7 @@ module.exports = [
       {
         text: 'Linux',
         items: [
-          { text: 'ubuntu', link: '/nginx/linuxbuild/onepointsixteen/' },
+          { text: 'ubuntu', link: '/ubuntu/closetab/' },
         ],
       },
     ],
