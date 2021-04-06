@@ -101,10 +101,8 @@
 </template>
 
 <script>
-let page;
 export default {
   mounted() {
-    page = require("busuanzi.pure.js");
   },
   data () {
     return {
@@ -117,7 +115,6 @@ export default {
   },
   watch: {
     '$route.path' () {
-      page.fetch()
       this.articleInfo = this.getPageInfo()
     },
     'articleInfo.title' (){
