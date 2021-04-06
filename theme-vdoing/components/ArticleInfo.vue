@@ -118,15 +118,15 @@ export default {
       this.articleInfo = this.getPageInfo()
     },
     'articleInfo.title' (){
-      this.getCountData()
+      // this.getCountData()
     }
   },
   methods: {
-    getCountData(){
-      axios.get("https://qs.taixingyiji.com:8082/common/count/"+this.articleInfo.title+"/abjkzxclkmA").then(value => {
-        this.num = value.data.data
-      })
-    },
+    // getCountData(){
+    //   axios.get("https://qs.taixingyiji.com:8082/common/count/"+this.articleInfo.title+"/abjkzxclkmA").then(value => {
+    //     this.num = value.data.data
+    //   })
+    // },
     getPageInfo () {
       const pageInfo = this.$page
       const { relativePath } = pageInfo

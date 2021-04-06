@@ -9,11 +9,11 @@ export default ({
                 }) => {
     router.beforeEach((to, from, next) => {
         next();
-        let str = encodeURIComponent(to.fullPath);
-        str = replaceAll("%2F","、、、",str)
-        axios.get("https://qs.taixingyiji.com:8082/common/log/"+str+"/abjkzxclkmA").then(value => {
-            this.num = value.data.data
-        })
+        // let str = encodeURIComponent(to.fullPath);
+        // str = replaceAll("%2F","、、、",str)
+        // axios.get("https://qs.taixingyiji.com:8082/common/log/"+str+"/abjkzxclkmA").then(value => {
+        //     this.num = value.data.data
+        // })
     })
     // 修复ISO8601时间格式为普通时间格式，以及添加作者信息
     siteData.pages.map(item => {
