@@ -117,6 +117,7 @@ export default {
   },
   watch: {
     '$route.path' () {
+      page.fetch()
       this.articleInfo = this.getPageInfo()
     },
     'articleInfo.title' (){

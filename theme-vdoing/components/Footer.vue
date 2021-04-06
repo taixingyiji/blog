@@ -46,7 +46,14 @@ export default {
     footer() {
       return this.$themeConfig.footer
     }
+  },watch: {
+    '$route' (to, from) {
+      if (to.path !== from.path) {
+        script.fetch();
+      }
+    }
   }
+
 }
 </script>
 
