@@ -14,7 +14,7 @@
       ></a>
     </div>
     <div>
-      本站总访问量<span id="busuanzi_value_site_pv"></span>次，您是本站第<span id="busuanzi_container_site_uv"></span>位访问者
+      本站总访问量<span id="busuanzi_value_site_pv"></span>次，您是本站第<span id="busuanzi_value_site_uv"></span>位访问者
     </div>
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
     Theme by

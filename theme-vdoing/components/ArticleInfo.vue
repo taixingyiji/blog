@@ -80,9 +80,8 @@
         <div
             class="icon iconfont icon-liulanliang"
             title="浏览量"
-            v-if="num"
         >
-          <a href="javascript:;">{{num}}</a>
+          <span id="busuanzi_value_page_pv"></span>
         </div>
         <div
           class="date iconfont icon-wenjian"
