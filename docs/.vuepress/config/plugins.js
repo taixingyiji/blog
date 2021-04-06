@@ -117,7 +117,7 @@ module.exports = [
                 labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
                 body:
                     '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-                proxy: 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token'
+                proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token'
             },
         },
     ],
