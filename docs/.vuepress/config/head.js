@@ -50,13 +50,6 @@ module.exports = [
     [
         'script',
         {
-            async: 'async',
-            src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-        },
-    ],
-    [
-        'script',
-        {
             'custom-element': 'amp-ad',
             async: 'async',
             src: 'https://cdn.ampproject.org/v0/amp-ad-0.1.js',

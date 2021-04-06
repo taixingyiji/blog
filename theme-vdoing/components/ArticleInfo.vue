@@ -78,6 +78,7 @@
           <a href="javascript:;">{{articleInfo.date}}</a>
         </div>
         <div
+            id="busuanzi_container_site_pv"
             class="icon iconfont icon-liulanliang"
             title="浏览量"
         >
@@ -100,9 +101,11 @@
 </template>
 
 <script>
-import axios from "axios";
-
+let page;
 export default {
+  mounted() {
+    page = require("busuanzi.pure.js");
+  },
   data () {
     return {
       articleInfo: {},

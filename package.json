@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "busuanzi.pure.js": "^1.0.3",
     "markdown-it-katex": "^2.0.3",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-sponsor": "^1.0.0"
