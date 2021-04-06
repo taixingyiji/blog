@@ -46,6 +46,14 @@ module.exports = [
         gtag('config', 'G-KE7ENV3SVE');
     `
     ],
+    //            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    [
+        'script',
+        {
+            async: 'async',
+            src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+        },
+    ],
     [
         'script',
         {
