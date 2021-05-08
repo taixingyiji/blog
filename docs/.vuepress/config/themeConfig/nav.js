@@ -86,6 +86,7 @@ module.exports = [
           { text: 'ubuntu', link: '/ubuntu/closetab/' },
         ],
       },
+      { text: 'Docker', link: '/docker/centosseven/' },
     ],
   },
   {
