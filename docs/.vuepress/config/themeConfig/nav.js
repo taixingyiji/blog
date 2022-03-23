@@ -87,6 +87,7 @@ module.exports = [
         ],
       },
       { text: 'Docker', link: '/docker/centosseven/' },
+      { text: '数据库', link: '/server/database/mysql/' },
     ],
   },
   {
