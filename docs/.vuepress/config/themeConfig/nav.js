@@ -95,6 +95,7 @@ module.exports = [
     link: '/more/',
     items: [
       { text: '友情链接', link: '/friends/' },
+      { text: 'openwrt', link: '/friends/' },
     ],
   },
   { text: '关于', link: '/about/' },
