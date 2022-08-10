@@ -18,6 +18,10 @@ module.exports = [
           { text: '问题记录', link: '/vue/bracket/' },
         ],
       },
+      {
+        text: 'uni-app',
+        link: '/uniapp/h5scanqr/',
+      },
     ],
   },
   {
