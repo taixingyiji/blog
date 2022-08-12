@@ -99,8 +99,8 @@ module.exports = [
     text: '更多',
     link: '/more/',
     items: [
+      { text: 'openwrt', link: '/pages/65f04f/' },
       { text: '友情链接', link: '/friends/' },
-      { text: 'openwrt', link: '/friends/' },
     ],
   },
   { text: '关于', link: '/about/' },
