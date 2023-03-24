@@ -2,11 +2,11 @@ module.exports = [
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', {
         rel: 'icon',
-        href: 'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/favicon/favicon.ico'
+        href: '/img/blog/favicon/favicon.ico'
     }], //favicons，资源放在public文件夹
     ['link', {
         rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/gh/taixingyiji/image_store@main/blog/css/iconfont.css'
+        href: '/img/blog/css/iconfont.css'
     }], //favicons，资源放在public文件夹
     // markdown数学公式支持
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
